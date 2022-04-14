@@ -2,14 +2,9 @@ local prefix = "."
 local theplayer = game.Players.LocalPlayer
 local usedweapon = "Revolver"
 
-local whitelisted = {
-	2518265590,
-	184253007,
-	103082221
-}
 
 
-if game.Players.LocalPlayer.UserId == whitelisted then
+
 
 	local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/notiflib/main/main"))()
 
@@ -263,5 +258,4 @@ if game.Players.LocalPlayer.UserId == whitelisted then
 			end
 		end
 	end)	
-end
 
