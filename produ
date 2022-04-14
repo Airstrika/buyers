@@ -5,8 +5,7 @@ local usedweapon = "Revolver"
 
 local whitelisted = {
 	2518265590,
-	184253007,
-	103082221
+	184253007
 }
 
 
