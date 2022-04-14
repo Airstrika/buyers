@@ -2,6 +2,14 @@ local prefix = "."
 local theplayer = game.Players.LocalPlayer
 local usedweapon = "Revolver"
 
+local whitelisted = {
+	2518265590,
+	184253007,
+	103082221
+}
+
+if game.Players.LocalPlayer.UserId == whitelisted then
+
 local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/notiflib/main/main"))()
 
 function findplr(plr)
@@ -253,6 +261,7 @@ theplayer.Chatted:connect(function(msg)
 		    buything(msg)
 		end
 	end
-end)		
+    end)		
+end
 
 notif:Notification("Buyers Script Shoutout Slidex","Prefix: ~","GothamSemibold","Gotham", 15)
