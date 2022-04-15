@@ -6,7 +6,8 @@ local usedweapon = "Revolver"
 local whitelisted = {
 	2518265590,
 	184253007,
-	103082221
+	103082221,
+	322785259
 }
 
 
@@ -265,7 +266,7 @@ if theplayer.UserId == whitelisted then
 		end
 	end)	
 	
-	notif:Notification("Buyers Script, Shoutout Slidex ✨","Prefix: ~","GothamSemibold","Gotham", 5)
+	notif:Notification("Buyers Script, Shoutout Slidex ✨","Prefix: .","GothamSemibold","Gotham", 10)
 	
 	else
 	
